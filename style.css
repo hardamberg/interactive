@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.747);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.main{
+   background-color: darkslategray;
+   text-align: center;
+   color: white;
+   border-radius: 20px;
+   padding: 20px 30px;
+   text-align: left;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.star{
+    background-color:rgb(36, 63, 63) ;
+    border-radius: 20px;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding:20px 0px;
+}
+ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.rate{
+    padding: 15px 20px;
+    border-radius:40px ;
+    border: none;
+    background-color:rgb(36, 63, 63) ;
+    color: rgb(196, 185, 185);
+    margin-left: 0;
+    cursor: pointer;
+    transition: 0.5s;
+  
+}
+
+.rate:hover{
+    background-color: orange;
+
+}
+.rate:focus{
+    background-color: rgb(94, 90, 90);
+    
+}
+
+.submit-btn{
+    padding: 10px 130px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: orange;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.Rate-Again{
+    padding: 10px 130px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: orange;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.submit-btn:hover{
+    background-color: rgb(94, 90, 90) ;
+    color: orange;
+
+}
+
+
+
+.thank-you{
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+.hidden{
+    display: none;
+}
+
+
+.Head{
+    background-color: dimgray;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subpage{
+    background-color: rgb(53, 47, 47);
+    /* height: 50vh; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainn{
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px 20px;
+    height: 80vh;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.mainn h2{
+    color: orange;
+    background-color: rgb(18, 117, 117);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.mainn h1{
+    color: white;
+    text-align: center;
+    /* padding: 10px 0px; */
+}
+.mainn p{
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}

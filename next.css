@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Head{
+    background-color: dimgray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpage{
+    background-color: rgb(53, 47, 47);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainn{
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 30px 50px;
+
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.mainn h2{
+    color: orange;
+    background-color: rgb(18, 117, 117);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.mainn h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.mainn p{
+    color: white;
+    padding-bottom: 30px;
+    text-align: center;
+}

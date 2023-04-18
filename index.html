@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.js">
+</head>
+<body>
+
+    <section>
+        
+        <div class="main">
+            <div>
+                <img class="star" src="./icon-star.svg" alt="">
+            </div>
+            <h1>How did we do ?</h1>
+            <p>Please let us know how we did with your support </p> 
+             <p>  request. All feedback is appreciated to help us </p> 
+              <p> improve our offering ! </p>
+
+            <ul >
+                <li>
+                    <button class="rate" onclick="toggler()">1</button>
+                </li>
+
+                <li> 
+                    <button class="rate">2</button>
+                </li>
+
+                <li> 
+                    <button class="rate">3</button>
+                </li>
+
+                <li> 
+                    <button class="rate">4</button>
+                </li>
+
+                <li> 
+                    <button class="rate">5</button>
+                </li>
+            </ul>
+
+            <button class="submit-btn" type="button" id="submit">SUBMIT</button>
+
+        </div>
+
+
+
+        <div class="thank-you hidden" >
+
+
+            <div class="mainn">
+                <img src="./illustration-thank-you.svg" alt="">
+                <h2>You selected
+
+                    <span id="rating"></span>
+
+                    out of 5</h2>
+
+                <h1>Thank you!</h1>
+                <p>We appreciate you taking the time to give a rating. <br> if you ever need more support , dont hesitate to <br> get in touch!</p>
+
+                <button class="submit-btn"  id="rate-again">RATE AGAIN</button>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
